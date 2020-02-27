@@ -4,7 +4,7 @@
 #
 Name     : adal
 Version  : 1.2.2
-Release  : 9
+Release  : 10
 URL      : https://files.pythonhosted.org/packages/75/e2/c44b5e8d99544a2e21aace5f8390c6f3dbf8a952f0453779075ffafafc80/adal-1.2.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/75/e2/c44b5e8d99544a2e21aace5f8390c6f3dbf8a952f0453779075ffafafc80/adal-1.2.2.tar.gz
 Summary  : The ADAL for Python library makes it easy for python application to authenticate to Azure Active Directory (AAD) in order to access AAD protected web resources.
@@ -41,6 +41,7 @@ python components for the adal package.
 Summary: python3 components for the adal package.
 Group: Default
 Requires: python3-core
+Provides: pypi(adal)
 
 %description python3
 python3 components for the adal package.
@@ -48,13 +49,15 @@ python3 components for the adal package.
 
 %prep
 %setup -q -n adal-1.2.2
+cd %{_builddir}/adal-1.2.2
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1562223319
+export SOURCE_DATE_EPOCH=1582844784
+# -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
