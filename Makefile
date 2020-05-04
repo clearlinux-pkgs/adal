@@ -1,5 +1,5 @@
 PKG_NAME := adal
-URL = https://files.pythonhosted.org/packages/75/e2/c44b5e8d99544a2e21aace5f8390c6f3dbf8a952f0453779075ffafafc80/adal-1.2.2.tar.gz
+URL = https://files.pythonhosted.org/packages/37/4d/c6a49a32b377dfc6cc48b837e34b7c9f967cfd117b1f77e59b61b6578d23/adal-1.2.3.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
