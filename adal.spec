@@ -4,7 +4,7 @@
 #
 Name     : adal
 Version  : 1.2.4
-Release  : 14
+Release  : 15
 URL      : https://files.pythonhosted.org/packages/6d/7b/2556101af58c147d19f77f6b064248fff43fc6d8c34126ef04961ab821d9/adal-1.2.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/6d/7b/2556101af58c147d19f77f6b064248fff43fc6d8c34126ef04961ab821d9/adal-1.2.4.tar.gz
 Summary  : Note: This library is already replaced by MSAL Python, available here: https://pypi.org/project/msal/ .ADAL Python remains available here as a legacy. The ADAL for Python library makes it easy for python application to authenticate to Azure Active Directory (AAD) in order to access AAD protected web resources.
